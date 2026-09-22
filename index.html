@@ -807,10 +807,101 @@ footer { padding: 80px 0 40px; border-top: 1px solid var(--border); text-align: 
   </div>
 </section>
 
-<!-- ===== 第八章：睡眠与恢复 ===== -->
-<section class="chapter" id="ch8">
+<!-- ===== 第八章：不运动时的供能 ===== -->
+<section class="chapter" id="ch8b">
   <div class="container">
     <div class="chapter-num">CHAPTER 08</div>
+    <h2 class="chapter-title">不运动的 23 小时：机器怠速时烧什么</h2>
+    <p class="chapter-lead">
+      前面几章都在讲"动起来"的那一小时。可一天有 24 小时，你真正在训练的也就一个多小时——剩下这 23 小时，机器一直在怠速运转。真正的减脂主场，其实不在健身房，就在这段你没怎么留意的时间里。
+    </p>
+
+    <h3>先记住一个反直觉的事：越安静，越烧脂肪</h3>
+    <p>
+      讲有氧时说过，脂肪动员慢，强度一高就跟不上、占比就低。把这句反过来，就是怠速状态的规律——你坐着、躺着的时候，能量需求很低，身体有的是工夫走脂肪那条慢流程。所以静息时脂肪供能的占比反而很高，糖只占一小块。
+    </p>
+
+    <div class="callout fat">
+      <div class="label">别小看这台机器的"底油耗"</div>
+      <p>65kg 的你，光基础代谢一天就要烧掉 1400–1500 大卡，比那一小时训练多得多。而且这部分里脂肪占了大头。你练那一小时是把油门猛踩一下，但真正细水长流烧脂肪的，是剩下这 23 小时的怠速。</p>
+    </div>
+
+    <h3>烧什么，看你"刚吃过"还是"空着肚子"</h3>
+    <p>
+      这还是第二章那套"存 / 取"的开关，只不过换到不运动的场景。一天里，身体就在这两档之间来回切：
+    </p>
+
+    <div class="dual-col">
+      <div class="col-card anabolic">
+        <h4>刚吃完饭（存）</h4>
+        <ul>
+          <li>血糖高、胰岛素高，优先烧刚吸收进来的葡萄糖</li>
+          <li>用不完的先填肝糖原、肌糖原，再多的转脂肪</li>
+          <li>胰岛素同时摁住脂肪分解——这会儿身体在"囤"，不在"取"</li>
+          <li>顺带修肌肉：氨基酸池有货，合成开工</li>
+        </ul>
+      </div>
+      <div class="col-card catabolic">
+        <h4>两顿之间 / 夜里（取）</h4>
+        <ul>
+          <li>血糖回落，胰岛素下来，胰高血糖素上来</li>
+          <li>肝糖原拆成葡萄糖往血里放，稳住血糖</li>
+          <li>脂肪动员放开，游离脂肪酸出来供能</li>
+          <li>你每天起床前那几个小时，就是这个状态</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>不同器官，怠速时的口味还不一样</h3>
+    <p>
+      静息不代表全身都吃同一种燃料。各个部门的偏好差得挺远：
+    </p>
+
+    <table>
+      <colgroup><col style="width:22%"><col style="width:33%"><col style="width:45%"></colgroup>
+      <thead><tr><th>器官</th><th>主要燃料</th><th>说明</th></tr></thead>
+      <tbody>
+        <tr><td>大脑</td><td>几乎只认葡萄糖</td><td>一天要吃掉约 120g，是血糖和肝糖原最大的客户</td></tr>
+        <tr><td>心脏</td><td>偏爱脂肪酸</td><td>安静时主要烧脂肪，稳定又耐烧</td></tr>
+        <tr><td>静息骨骼肌</td><td>脂肪酸为主</td><td>不干活时也主要烧脂肪，不怎么动糖</td></tr>
+        <tr><td>红细胞</td><td>只能靠葡萄糖</td><td>没有线粒体，烧不了脂肪，只能用糖</td></tr>
+      </tbody>
+    </table>
+    <p>
+      所以肝脏辛辛苦苦维持的那点血糖，主要是喂给大脑和红细胞这些"只吃糖"的部门。
+    </p>
+
+    <div class="chart-box">
+      <div class="chart-title">静息 vs 运动：三大燃料的供能占比</div>
+      <div class="chart-desc">越安静，脂肪占比越高；强度越大，越依赖糖</div>
+      <div class="chart" id="restFuelChart"></div>
+    </div>
+
+    <h3>那肌肉呢？怠速时会被拆吗</h3>
+    <p>
+      正常情况下基本不会，这点可以放心。还是回到那几个仓库各自的脾气：
+    </p>
+    <ul style="margin:16px 0; padding-left:24px;">
+      <li style="margin-bottom:8px;"><strong>肌糖原</strong>：只供自己那块肌肉用，肌肉不干活它就基本不动，出不了肌肉这道门，静息时几乎不参与全身供能</li>
+      <li style="margin-bottom:8px;"><strong>肌肉蛋白</strong>：静息时照样边拆边建，但只要氨基酸池有货（你蛋白质吃够），拆和建持平，肌肉量稳住</li>
+    </ul>
+
+    <div class="callout catabolic">
+      <div class="label">肌肉真被拆去供能，是什么时候</div>
+      <p>得是长时间空腹、连肝糖原都见底之后：身体为了继续给大脑供糖，才启动糖异生，把肌肉氨基酸拿去造葡萄糖。但肝糖原大约能撑十几个小时，你正常三餐加晚上那份蛋白粉，根本到不了这一步。日常那点空腹（比如早上起床那会儿）动的是肝糖原和脂肪，还轮不到肌肉。</p>
+    </div>
+
+    <div class="callout protein">
+      <div class="label">回到你自己</div>
+      <p>把这 23 小时算进去，你的减脂逻辑才完整：小缺口 + 蛋白质吃够 + 三餐规律，等于让这台机器全天大部分时间都待在"稳稳烧脂肪、又不至于饿到拆肌肉"的怠速区。训练是偶尔猛踩一脚油门，而真正把脂肪一点点烧掉的，是你没在动的那大半天。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 第九章：睡眠与恢复 ===== -->
+<section class="chapter" id="ch8">
+  <div class="container">
+    <div class="chapter-num">CHAPTER 09</div>
     <h2 class="chapter-title">睡眠：身体的"夜班维修队"</h2>
     <p class="chapter-lead">
       总觉得肌肉是在健身房长出来的？其实不是。训练只负责把旧件拆下来、把毛病暴露出来，真正的返修装配，大半在你睡着以后才开工。
@@ -909,10 +1000,10 @@ footer { padding: 80px 0 40px; border-top: 1px solid var(--border); text-align: 
   </div>
 </section>
 
-<!-- ===== 第九章：回到你的一天 ===== -->
+<!-- ===== 第十章：回到你的一天 ===== -->
 <section class="chapter" id="ch9">
   <div class="container">
-    <div class="chapter-num">CHAPTER 09</div>
+    <div class="chapter-num">CHAPTER 10</div>
     <h2 class="chapter-title">回到你的一天：所有线索串起来</h2>
     <p class="chapter-lead">
       每个环节里身体在干嘛，现在你都清楚了。那就回到开头那张时间表，再走一遍——这回，每一步背后是什么，你心里都有数。
@@ -1166,9 +1257,46 @@ g5.setOption({
   }]
 });
 
+// ===== 静息 vs 运动 燃料占比图 =====
+var g6 = echarts.init(document.getElementById('restFuelChart'));
+g6.setOption({
+  backgroundColor: 'transparent',
+  tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+  legend: { data: ['脂肪', '糖（血糖+糖原）', '氨基酸'], textStyle: { color: '#8b949e' }, bottom: 0 },
+  grid: { left: 50, right: 20, top: 30, bottom: 50 },
+  xAxis: {
+    type: 'category',
+    data: ['静息/睡觉', '走路', '低强度有氧', '高强度训练'],
+    axisLine: { lineStyle: { color: '#30363d' } },
+    axisLabel: { color: '#8b949e', fontSize: 11 }
+  },
+  yAxis: {
+    type: 'value', max: 100, min: 0,
+    axisLabel: { color: '#8b949e', formatter: '{value}%' },
+    splitLine: { lineStyle: { color: '#30363d' } }
+  },
+  series: [
+    {
+      name: '脂肪', type: 'bar', stack: 'fuel',
+      data: [60, 50, 45, 15],
+      itemStyle: { color: '#22c55e' }, barWidth: '45%'
+    },
+    {
+      name: '糖（血糖+糖原）', type: 'bar', stack: 'fuel',
+      data: [38, 48, 53, 83],
+      itemStyle: { color: '#f97316' }
+    },
+    {
+      name: '氨基酸', type: 'bar', stack: 'fuel',
+      data: [2, 2, 2, 2],
+      itemStyle: { color: '#ef4444' }
+    }
+  ]
+});
+
 // 响应式
 window.addEventListener('resize', function() {
-  g1.resize(); g2.resize(); g3.resize(); g4.resize(); g5.resize();
+  g1.resize(); g2.resize(); g3.resize(); g4.resize(); g5.resize(); g6.resize();
 });
 </script>
 
